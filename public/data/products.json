@@ -1,0 +1,773 @@
+
+[
+  {
+    "id": 1,
+    "section": "beauty",
+    "brand": "Lakme",
+    "title": "Matte Lipstick",
+    "category": "Makeup",
+    "type": "Lipstick",
+    "gender": "Women",
+    "color": "Red",
+    "price": 499,
+    "originalPrice": 999,
+    "discount": 50,
+    "rating": 4.3,
+    "reviews": "2.4k",
+    "sizes": ["90 ML"],
+    "images": [
+      "/images/beauty1.jpg",
+      "/images/beauty/lakme2.jpg",
+      "/images/beauty/lakme3.jpg"
+    ]
+  },
+
+  {
+    "id": 2,
+    "section": "beauty",
+    "brand": "Maybelline",
+    "title": "Fit Me Foundation",
+    "category": "Makeup",
+    "type": "Foundation",
+    "gender": "Women",
+    "color": "Beige",
+    "price": 699,
+    "originalPrice": 1299,
+    "discount": 46,
+    "rating": 4.5,
+    "reviews": "3.1k",
+    "sizes": ["100 ML"],
+    "images": [
+      "/images/beauty4.jpg",
+      "/images/beauty/maybelline2.jpg",
+      "/images/beauty/maybelline3.jpg"
+    ]
+  },
+
+  {
+    "id": 3,
+    "section": "beauty",
+    "brand": "Mamaearth",
+    "title": "Vitamin C Face Wash",
+    "category": "Skincare",
+    "type": "Face Wash",
+    "gender": "Unisex",
+    "color": "Orange",
+    "price": 349,
+    "originalPrice": 599,
+    "discount": 42,
+    "rating": 4.2,
+    "reviews": "1.9k",
+    "sizes": ["150 ML"],
+    "images": [
+      "/images/beauty/mamaearth1.jpg",
+      "/images/beauty/mamaearth2.jpg",
+      "/images/beauty/mamaearth3.jpg"
+    ]
+  },
+
+  {
+    "id": 4,
+    "section": "beauty",
+    "brand": "Nykaa",
+    "title": "Nail Enamel Combo",
+    "category": "Makeup",
+    "type": "Nail Polish",
+    "gender": "Women",
+    "color": "Pink",
+    "price": 299,
+    "originalPrice": 699,
+    "discount": 57,
+    "rating": 4.1,
+    "reviews": "900",
+    "sizes": ["Combo"],
+    "images": [
+      "/images/beauty/nykaa1.jpg",
+      "/images/beauty/nykaa2.jpg",
+      "/images/beauty/nykaa3.jpg"
+    ]
+  },
+
+  {
+    "id": 5,
+    "section": "beauty",
+    "brand": "The Man Company",
+    "title": "Perfume Spray",
+    "category": "Fragrance",
+    "type": "Perfume",
+    "gender": "Men",
+    "color": "Black",
+    "price": 799,
+    "originalPrice": 1599,
+    "discount": 50,
+    "rating": 4.4,
+    "reviews": "4.5k",
+    "sizes": ["120 ML"],
+    "images": [
+      "/images/beauty/perfume1.jpg",
+      "/images/beauty/perfume2.jpg",
+      "/images/beauty/perfume3.jpg"
+    ]
+  },
+
+  {
+    "id": 6,
+    "section": "men",
+    "brand": "Nike",
+    "title": "Running Shoes",
+    "category": "Footwear",
+    "type": "Shoes",
+    "gender": "Men",
+    "color": "Black",
+    "price": 3499,
+    "originalPrice": 6999,
+    "discount": 50,
+    "rating": 4.6,
+    "reviews": "5.2k",
+    "sizes": ["7", "8", "9", "10"],
+    "images": [
+      "/images/men/nike1.jpg",
+      "/images/men/nike2.jpg",
+      "/images/men/nike3.jpg"
+    ]
+  },
+
+  {
+    "id": 7,
+    "section": "men",
+    "brand": "Puma",
+    "title": "Sports T-Shirt",
+    "category": "Clothing",
+    "type": "T-Shirt",
+    "gender": "Men",
+    "color": "Blue",
+    "price": 899,
+    "originalPrice": 1799,
+    "discount": 50,
+    "rating": 4.3,
+    "reviews": "2.1k",
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "/images/men/puma1.jpg",
+      "/images/men/puma2.jpg",
+      "/images/men/puma3.jpg"
+    ]
+  },
+
+  {
+    "id": 8,
+    "section": "men",
+    "brand": "Levis",
+    "title": "Slim Fit Jeans",
+    "category": "Clothing",
+    "type": "Jeans",
+    "gender": "Men",
+    "color": "Blue",
+    "price": 2299,
+    "originalPrice": 4599,
+    "discount": 50,
+    "rating": 4.5,
+    "reviews": "3.8k",
+    "sizes": ["30", "32", "34", "36"],
+    "images": [
+      "/images/men/levis1.jpg",
+      "/images/men/levis2.jpg",
+      "/images/men/levis3.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "section": "women",
+    "brand": "Biba",
+    "title": "Printed Kurti",
+    "category": "Ethnic",
+    "type": "Kurti",
+    "gender": "Women",
+    "color": "Yellow",
+    "price": 1299,
+    "originalPrice": 2599,
+    "discount": 50,
+    "rating": 4.4,
+    "reviews": "1.5k",
+    "sizes": ["S", "M", "L"],
+    "images": [
+      "/images/women/biba1.jpg",
+      "/images/women/biba2.jpg",
+      "/images/women/biba3.jpg"
+    ]
+  },
+
+  {
+    "id": 10,
+    "section": "women",
+    "brand": "Libas",
+    "title": "Floral Saree",
+    "category": "Ethnic",
+    "type": "Saree",
+    "gender": "Women",
+    "color": "Pink",
+    "price": 1999,
+    "originalPrice": 3999,
+    "discount": 50,
+    "rating": 4.5,
+    "reviews": "2.2k",
+    "sizes": ["Free Size"],
+    "images": [
+      "/images/women/libas1.jpg",
+      "/images/women/libas2.jpg",
+      "/images/women/libas3.jpg"
+    ]
+  },
+
+  {
+    "id": 11,
+    "section": "kids",
+    "brand": "H&M",
+    "title": "Kids Cartoon T-Shirt",
+    "category": "Kids Wear",
+    "type": "T-Shirt",
+    "gender": "Kids",
+    "color": "Green",
+    "price": 699,
+    "originalPrice": 1399,
+    "discount": 50,
+    "rating": 4.2,
+    "reviews": "800",
+    "sizes": ["4Y", "6Y", "8Y"],
+    "images": [
+      "/images/kids/hm1.jpg",
+      "/images/kids/hm2.jpg",
+      "/images/kids/hm3.jpg"
+    ]
+  },
+
+  {
+    "id": 12,
+    "section": "home-living",
+    "brand": "Spaces",
+    "title": "Cotton Bedsheet",
+    "category": "Home Decor",
+    "type": "Bedsheet",
+    "gender": "Unisex",
+    "color": "White",
+    "price": 1499,
+    "originalPrice": 2999,
+    "discount": 50,
+    "rating": 4.4,
+    "reviews": "1.1k",
+    "sizes": ["Double Bed"],
+    "images": [
+      "/images/home/spaces1.jpg",
+      "/images/home/spaces2.jpg",
+      "/images/home/spaces3.jpg"
+    ]
+  },
+
+{
+  "id": 13,
+  "section": "men",
+  "brand": "Adidas",
+  "title": "Training Track Pants",
+  "category": "Clothing",
+  "type": "Track Pants",
+  "gender": "Men",
+  "color": "Black",
+  "price": 1799,
+  "originalPrice": 3599,
+  "discount": 50,
+  "rating": 4.4,
+  "reviews": "2.7k",
+  "sizes": ["S", "M", "L", "XL"],
+  "images": [
+    "/images/men/adidas1.jpg",
+    "/images/men/adidas2.jpg",
+    "/images/men/adidas3.jpg"
+  ]
+},
+
+{
+  "id": 14,
+  "section": "men",
+  "brand": "Roadster",
+  "title": "Checked Casual Shirt",
+  "category": "Clothing",
+  "type": "Shirt",
+  "gender": "Men",
+  "color": "Green",
+  "price": 999,
+  "originalPrice": 1999,
+  "discount": 50,
+  "rating": 4.1,
+  "reviews": "1.8k",
+  "sizes": ["M", "L", "XL"],
+  "images": [
+    "/images/men/roadster1.jpg",
+    "/images/men/roadster2.jpg",
+    "/images/men/roadster3.jpg"
+  ]
+},
+
+{
+  "id": 15,
+  "section": "men",
+  "brand": "HRX",
+  "title": "Gym Training Hoodie",
+  "category": "Sports Wear",
+  "type": "Hoodie",
+  "gender": "Men",
+  "color": "Grey",
+  "price": 1599,
+  "originalPrice": 3199,
+  "discount": 50,
+  "rating": 4.5,
+  "reviews": "3.2k",
+  "sizes": ["S", "M", "L"],
+  "images": [
+    "/images/men/hrx1.jpg",
+    "/images/men/hrx2.jpg",
+    "/images/men/hrx3.jpg"
+  ]
+},
+
+{
+  "id": 16,
+  "section": "women",
+  "brand": "Anouk",
+  "title": "Embroidered Kurta Set",
+  "category": "Ethnic",
+  "type": "Kurta Set",
+  "gender": "Women",
+  "color": "Maroon",
+  "price": 2499,
+  "originalPrice": 4999,
+  "discount": 50,
+  "rating": 4.6,
+  "reviews": "4.2k",
+  "sizes": ["S", "M", "L", "XL"],
+  "images": [
+    "/images/women/anouk1.jpg",
+    "/images/women/anouk2.jpg",
+    "/images/women/anouk3.jpg"
+  ]
+},
+
+{
+  "id": 17,
+  "section": "women",
+  "brand": "Tokyo Talkies",
+  "title": "Crop Top",
+  "category": "Western Wear",
+  "type": "Top",
+  "gender": "Women",
+  "color": "Black",
+  "price": 799,
+  "originalPrice": 1599,
+  "discount": 50,
+  "rating": 4.2,
+  "reviews": "1.9k",
+  "sizes": ["XS", "S", "M"],
+  "images": [
+    "/images/women/tokyo1.jpg",
+    "/images/women/tokyo2.jpg",
+    "/images/women/tokyo3.jpg"
+  ]
+},
+
+{
+  "id": 18,
+  "section": "women",
+  "brand": "DressBerry",
+  "title": "Party Wear Heels",
+  "category": "Footwear",
+  "type": "Heels",
+  "gender": "Women",
+  "color": "Silver",
+  "price": 1499,
+  "originalPrice": 2999,
+  "discount": 50,
+  "rating": 4.3,
+  "reviews": "1.3k",
+  "sizes": ["5", "6", "7", "8"],
+  "images": [
+    "/images/women/heels1.jpg",
+    "/images/women/heels2.jpg",
+    "/images/women/heels3.jpg"
+  ]
+},
+
+{
+  "id": 19,
+  "section": "beauty",
+  "brand": "LOreal",
+  "title": "Hair Serum",
+  "category": "Hair Care",
+  "type": "Serum",
+  "gender": "Women",
+  "color": "Gold",
+  "price": 599,
+  "originalPrice": 1199,
+  "discount": 50,
+  "rating": 4.5,
+  "reviews": "3.5k",
+  "sizes": ["100 ML"],
+  "images": [
+    "/images/beauty/loreal1.jpg",
+    "/images/beauty/loreal2.jpg",
+    "/images/beauty/loreal3.jpg"
+  ]
+},
+
+{
+  "id": 20,
+  "section": "beauty",
+  "brand": "Nivea",
+  "title": "Body Lotion",
+  "category": "Skincare",
+  "type": "Lotion",
+  "gender": "Unisex",
+  "color": "Blue",
+  "price": 399,
+  "originalPrice": 799,
+  "discount": 50,
+  "rating": 4.4,
+  "reviews": "5.7k",
+  "sizes": ["400 ML"],
+  "images": [
+    "/images/beauty/nivea1.jpg",
+    "/images/beauty/nivea2.jpg",
+    "/images/beauty/nivea3.jpg"
+  ]
+},
+
+{
+  "id": 21,
+  "section": "beauty",
+  "brand": "Minimalist",
+  "title": "Vitamin C Serum",
+  "category": "Skincare",
+  "type": "Serum",
+  "gender": "Unisex",
+  "color": "Orange",
+  "price": 699,
+  "originalPrice": 1399,
+  "discount": 50,
+  "rating": 4.6,
+  "reviews": "6.1k",
+  "sizes": ["30 ML"],
+  "images": [
+    "/images/beauty/minimalist1.jpg",
+    "/images/beauty/minimalist2.jpg",
+    "/images/beauty/minimalist3.jpg"
+  ]
+},
+
+{
+  "id": 22,
+  "section": "kids",
+  "brand": "Max",
+  "title": "Printed Kids Shorts",
+  "category": "Kids Wear",
+  "type": "Shorts",
+  "gender": "Kids",
+  "color": "Yellow",
+  "price": 499,
+  "originalPrice": 999,
+  "discount": 50,
+  "rating": 4.1,
+  "reviews": "700",
+  "sizes": ["4Y", "6Y", "8Y"],
+  "images": [
+    "/images/kids/max1.jpg",
+    "/images/kids/max2.jpg",
+    "/images/kids/max3.jpg"
+  ]
+},
+
+{
+  "id": 23,
+  "section": "kids",
+  "brand": "Pantaloons Junior",
+  "title": "Kids Denim Jacket",
+  "category": "Kids Wear",
+  "type": "Jacket",
+  "gender": "Kids",
+  "color": "Blue",
+  "price": 1299,
+  "originalPrice": 2599,
+  "discount": 50,
+  "rating": 4.4,
+  "reviews": "1.2k",
+  "sizes": ["6Y", "8Y", "10Y"],
+  "images": [
+    "/images/kids/jacket1.jpg",
+    "/images/kids/jacket2.jpg",
+    "/images/kids/jacket3.jpg"
+  ]
+},
+
+{
+  "id": 24,
+  "section": "home-living",
+  "brand": "Home Centre",
+  "title": "Modern Table Lamp",
+  "category": "Home Decor",
+  "type": "Lamp",
+  "gender": "Unisex",
+  "color": "Brown",
+  "price": 1899,
+  "originalPrice": 3799,
+  "discount": 50,
+  "rating": 4.3,
+  "reviews": "950",
+  "sizes": ["Standard"],
+  "images": [
+    "/images/home/lamp1.jpg",
+    "/images/home/lamp2.jpg",
+    "/images/home/lamp3.jpg"
+  ]
+},
+
+{
+  "id": 25,
+  "section": "home-living",
+  "brand": "DDecor",
+  "title": "Designer Curtains",
+  "category": "Home Furnishing",
+  "type": "Curtains",
+  "gender": "Unisex",
+  "color": "Cream",
+  "price": 2199,
+  "originalPrice": 4399,
+  "discount": 50,
+  "rating": 4.5,
+  "reviews": "1.4k",
+  "sizes": ["Long Door"],
+  "images": [
+    "/images/home/curtain1.jpg",
+    "/images/home/curtain2.jpg",
+    "/images/home/curtain3.jpg"
+  ]
+},
+
+{
+  "id": 26,
+  "section": "men",
+  "brand": "US Polo",
+  "title": "Classic Polo T-Shirt",
+  "category": "Clothing",
+  "type": "Polo T-Shirt",
+  "gender": "Men",
+  "color": "White",
+  "price": 1399,
+  "originalPrice": 2799,
+  "discount": 50,
+  "rating": 4.5,
+  "reviews": "3.9k",
+  "sizes": ["S", "M", "L", "XL"],
+  "images": [
+    "/images/men/uspolo1.jpg",
+    "/images/men/uspolo2.jpg",
+    "/images/men/uspolo3.jpg"
+  ]
+},
+
+{
+  "id": 27,
+  "section": "men",
+  "brand": "Tommy Hilfiger",
+  "title": "Slim Fit Casual Shirt",
+  "category": "Clothing",
+  "type": "Shirt",
+  "gender": "Men",
+  "color": "Navy Blue",
+  "price": 2499,
+  "originalPrice": 4999,
+  "discount": 50,
+  "rating": 4.6,
+  "reviews": "2.8k",
+  "sizes": ["M", "L", "XL"],
+  "images": [
+    "/images/men/tommy1.jpg",
+    "/images/men/tommy2.jpg",
+    "/images/men/tommy3.jpg"
+  ]
+},
+
+{
+  "id": 28,
+  "section": "women",
+  "brand": "Forever 21",
+  "title": "Oversized Printed Hoodie",
+  "category": "Western Wear",
+  "type": "Hoodie",
+  "gender": "Women",
+  "color": "Purple",
+  "price": 1799,
+  "originalPrice": 3599,
+  "discount": 50,
+  "rating": 4.3,
+  "reviews": "1.7k",
+  "sizes": ["S", "M", "L"],
+  "images": [
+    "/images/women/forever1.jpg",
+    "/images/women/forever2.jpg",
+    "/images/women/forever3.jpg"
+  ]
+},
+
+{
+  "id": 29,
+  "section": "women",
+  "brand": "Zara",
+  "title": "Floral Summer Dress",
+  "category": "Western Wear",
+  "type": "Dress",
+  "gender": "Women",
+  "color": "Red",
+  "price": 2999,
+  "originalPrice": 5999,
+  "discount": 50,
+  "rating": 4.7,
+  "reviews": "5.4k",
+  "sizes": ["XS", "S", "M", "L"],
+  "images": [
+    "/images/women/zara1.jpg",
+    "/images/women/zara2.jpg",
+    "/images/women/zara3.jpg"
+  ]
+},
+
+{
+  "id": 30,
+  "section": "beauty",
+  "brand": "Cetaphil",
+  "title": "Gentle Skin Cleanser",
+  "category": "Skincare",
+  "type": "Cleanser",
+  "gender": "Unisex",
+  "color": "White",
+  "price": 899,
+  "originalPrice": 1799,
+  "discount": 50,
+  "rating": 4.8,
+  "reviews": "7.2k",
+  "sizes": ["250 ML"],
+  "images": [
+    "/images/beauty/cetaphil1.jpg",
+    "/images/beauty/cetaphil2.jpg",
+    "/images/beauty/cetaphil3.jpg"
+  ]
+},
+
+{
+  "id": 31,
+  "section": "beauty",
+  "brand": "WOW",
+  "title": "Onion Hair Oil",
+  "category": "Hair Care",
+  "type": "Hair Oil",
+  "gender": "Unisex",
+  "color": "Brown",
+  "price": 499,
+  "originalPrice": 999,
+  "discount": 50,
+  "rating": 4.2,
+  "reviews": "2.6k",
+  "sizes": ["200 ML"],
+  "images": [
+    "/images/beauty/wow1.jpg",
+    "/images/beauty/wow2.jpg",
+    "/images/beauty/wow3.jpg"
+  ]
+},
+
+{
+  "id": 32,
+  "section": "kids",
+  "brand": "Mothercare",
+  "title": "Kids Winter Sweater",
+  "category": "Kids Wear",
+  "type": "Sweater",
+  "gender": "Kids",
+  "color": "Red",
+  "price": 1199,
+  "originalPrice": 2399,
+  "discount": 50,
+  "rating": 4.5,
+  "reviews": "1.1k",
+  "sizes": ["4Y", "6Y", "8Y"],
+  "images": [
+    "/images/kids/mothercare1.jpg",
+    "/images/kids/mothercare2.jpg",
+    "/images/kids/mothercare3.jpg"
+  ]
+},
+
+{
+  "id": 33,
+  "section": "kids",
+  "brand": "Allen Solly Junior",
+  "title": "Boys Casual Shirt",
+  "category": "Kids Wear",
+  "type": "Shirt",
+  "gender": "Kids",
+  "color": "Sky Blue",
+  "price": 899,
+  "originalPrice": 1799,
+  "discount": 50,
+  "rating": 4.3,
+  "reviews": "850",
+  "sizes": ["6Y", "8Y", "10Y"],
+  "images": [
+    "/images/kids/allen1.jpg",
+    "/images/kids/allen2.jpg",
+    "/images/kids/allen3.jpg"
+  ]
+},
+
+{
+  "id": 34,
+  "section": "home-living",
+  "brand": "Bombay Dyeing",
+  "title": "Premium Pillow Covers",
+  "category": "Home Furnishing",
+  "type": "Pillow Cover",
+  "gender": "Unisex",
+  "color": "Grey",
+  "price": 799,
+  "originalPrice": 1599,
+  "discount": 50,
+  "rating": 4.4,
+  "reviews": "1.6k",
+  "sizes": ["Standard"],
+  "images": [
+    "/images/home/pillow1.jpg",
+    "/images/home/pillow2.jpg",
+    "/images/home/pillow3.jpg"
+  ]
+},
+
+{
+  "id": 35,
+  "section": "home-living",
+  "brand": "Urban Ladder",
+  "title": "Wooden Wall Shelf",
+  "category": "Furniture",
+  "type": "Shelf",
+  "gender": "Unisex",
+  "color": "Brown",
+  "price": 3499,
+  "originalPrice": 6999,
+  "discount": 50,
+  "rating": 4.6,
+  "reviews": "2.3k",
+  "sizes": ["Medium"],
+  "images": [
+    "/images/home/shelf1.jpg",
+    "/images/home/shelf2.jpg",
+    "/images/home/shelf3.jpg"
+  ]
+}
+
+]
