@@ -24,10 +24,7 @@ function AuthProvider({ children }) {
 
   function login(userData) {
 
-    console.log(
-      "LOGIN FUNCTION RUNNING"
-    );
-
+    
     console.log(userData);
 
     //save token

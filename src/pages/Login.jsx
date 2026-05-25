@@ -1,6 +1,7 @@
 
 import { useState } from "react"
 import {useNavigate} from "react-router-dom"
+import toast from "react-hot-toast"
 
 import { loginUser } from "../services/authService"
 import { useAuth } from "../context/AuthContext"
@@ -40,16 +41,22 @@ async function handleSubmit(e) {
       loginData
     );
 
-    console.log("BEFORE LOGIN");
-    login(data);
-
-    console.log("AFTER LOGIN");
     
     console.log(data);
+
+    login(data)
+
+    toast.success("Login Successful")
 
     navigate("/profile");
     
   } catch (error) {
+
+    toast.error( 
+       error.response?.data?.message ||
+
+       "Login Failed"
+    )
     
     console.log(error);
 

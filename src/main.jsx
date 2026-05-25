@@ -6,9 +6,13 @@ import ReactDOM from "react-dom/client"
 import { BrowserRouter} from "react-router-dom"
 import App from './App'
 import './index.css'
+import { Toaster } from "react-hot-toast"
+
+
 import { ProductProvider } from "./context/ProductContext"
 import AuthProvider from "./context/AuthContext"
 import { WishlistProvider} from "./context/WishlistContext"
+import { BagProvider } from "./context/BagContext"
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,11 +26,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         <WishlistProvider >
 
+          <BagProvider >
+            
           <ProductProvider>
 
          <App />
 
+         <Toaster />
+
          </ProductProvider>
+
+           </BagProvider>
+
 
          </WishlistProvider>
 

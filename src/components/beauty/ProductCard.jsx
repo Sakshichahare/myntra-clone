@@ -1,7 +1,9 @@
 
 import { useEffect, useState, useContext } from "react"
+import toast from "react-hot-toast"
 
 import { WishlistContext} from "../../context/WishlistContext"
+import { BagContext } from "../../context/BagContext"
 
 function ProductCard({ product }) {
 
@@ -14,6 +16,8 @@ function ProductCard({ product }) {
   WishlistContext
 )
 
+
+const { addToBag } = useContext( BagContext )
   
   const [isHovered, setIsHovered] = useState(false)
 
@@ -198,17 +202,9 @@ function ProductCard({ product }) {
         )}
 
 
+       {isHovered && (
 
-       {/* WISHLIST BUTTON */}
-
-{isHovered && (
-
-  <button
-
-    onClick={() =>
-      toggleWishlist(product)
-    }
-
+  <div
     className="
       absolute
 
@@ -217,35 +213,98 @@ function ProductCard({ product }) {
 
       -translate-x-1/2
 
-      bg-white
-
-      border
-
       w-[85%]
 
-      py-2
+      flex
+      flex-col
 
-      font-semibold
-
-      text-sm
-
-      hover:border-gray-500
-
-      transition-all
+      gap-2
     "
   >
 
-    {
-      isInWishlist(product.id)
+    {/* ADD TO BAG */}
 
-        ? "❤️ WISHLISTED"
+    <button
 
-        : "♡ WISHLIST"
-    }
+      onClick={() =>{
+        addToBag(product)
 
-  </button>
+        toast.success("Added To Bag")
+
+      }
+      }
+
+      className="
+        bg-pink-500
+
+        text-white
+
+        py-2
+
+        font-semibold
+
+        text-sm
+
+        hover:bg-pink-600
+
+        transition-all
+      "
+    >
+
+      ADD TO BAG
+
+    </button>
+
+
+
+    {/* WISHLIST */}
+
+    <button
+
+      onClick={() =>{
+        toggleWishlist(product)
+
+       toast.success(
+        isInWishlist(product.id)
+        ?"Removed From Wishlist"
+        :"Added To Wishlist"
+       )
+       }
+      }
+
+      className="
+        bg-white
+
+        border
+
+        py-2
+
+        font-semibold
+
+        text-sm
+
+        hover:border-gray-500
+
+        transition-all
+      "
+    >
+
+      {
+        isInWishlist(product.id)
+
+          ? "❤️ WISHLISTED"
+
+          : "♡ WISHLIST"
+      }
+
+    </button>
+
+  </div>
 
 )}
+
+       
+
       </div>
 
 

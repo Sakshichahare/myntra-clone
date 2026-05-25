@@ -27,25 +27,34 @@ import {
 
 } from "react-router-dom"
 
-import {
-
-  ProductContext
-
-} from "../../context/ProductContext"
-
-import {
-
-  useAuth
-
-} from "../../context/AuthContext"
+import { ProductContext } from "../../context/ProductContext"
+import { useAuth } from "../../context/AuthContext"
+import { WishlistContext } from "../../context/WishlistContext"
+import { BagContext } from "../../context/BagContext"
 
 import myntraLogo from "../../assets/logo/myntra.jpg"
-
 import MenMegaMenu from "../megaMenu/MenMegaMenu"
 
 
 
 function Header() {
+
+  const { wishlistItems } = useContext( WishlistContext )
+  const { bagItems } = useContext( BagContext )
+
+  //header count
+ const totalBagItems =
+
+  bagItems.reduce(
+
+    (total, item) =>
+
+      total + item.quantity,
+
+    0
+  )
+
+
 
   const {
 
@@ -58,7 +67,6 @@ function Header() {
 
 
   // GLOBAL PRODUCTS
-
   const {
 
     products
@@ -68,7 +76,6 @@ function Header() {
 
 
   // SEARCH STATE
-
   const [
 
     searchTerm,
@@ -80,13 +87,11 @@ function Header() {
 
 
   // NAVIGATE
-
   const navigate = useNavigate()
 
 
 
   // SEARCH SUGGESTIONS
-
   const suggestions = [
 
     ...new Set(
@@ -766,34 +771,110 @@ function Header() {
           {/* WISHLIST */}
 
           <NavLink
-            to="/wishlist"
-            className={iconLinkClass}
+           to="/wishlist"
+           className={iconLinkClass}
           >
 
-            <Heart size={20} />
+            <div className="relative">
 
-            <span className="hidden sm:block">
-              Wishlist
-            </span>
+             <Heart size={20} />
 
-          </NavLink>
+             {
+              wishlistItems.length > 0 && (
+
+            <span
+            className="
+            absolute
+
+            -top-2
+            -right-2
+
+            bg-pink-500
+
+            text-white
+
+            text-[10px]
+
+            w-4
+            h-4
+
+            flex
+            items-center
+            justify-center
+
+            rounded-full
+          "
+        >
+
+          {wishlistItems.length}
+
+          </span>
+
+            )
+         }
+
+            </div>
+
+           <span className="hidden sm:block">
+            Wishlist
+           </span>
+
+         </NavLink>
 
 
 
           {/* BAG */}
 
-          <NavLink
-            to="/bag"
-            className={iconLinkClass}
-          >
+         <NavLink
+           to="/bag"
+           className={iconLinkClass}
+         >
 
-            <ShoppingBag size={20} />
+        <div className="relative">
 
-            <span className="hidden sm:block">
-              Bag
-            </span>
+        <ShoppingBag size={20} />
 
-          </NavLink>
+         {
+           totalBagItems > 0 && (
+
+            <span
+            className="
+            absolute
+
+            -top-2
+            -right-2
+
+            bg-pink-500
+
+            text-white
+
+            text-[10px]
+
+            w-4
+            h-4
+
+            flex
+            items-center
+            justify-center
+
+            rounded-full
+          "
+        >
+
+          {totalBagItems}
+
+        </span>
+
+          )
+       }
+
+     </div>
+
+     <span className="hidden sm:block">
+          Bag
+     </span>
+
+     </NavLink>
 
 
 
